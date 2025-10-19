@@ -7,10 +7,14 @@ cada entidade tem varios atributos/colunas/columns
 we need slq to organize information 
 - [ ] what's the difference between sql vs nosql?
 sql- dados orginzados, relacoinamentos nosql- dados grandes e diferentes
+-[]onde usar cada uma delas?
+
 - [ ] why do we need table in sql?
 sem a tabela nao tem como organizar os dados/information
 - [ ] what's table?
 blocos onde os dados ficam organizados
+-[]oque nosql usa?
+
 
 ## notes
 we don't want to remember

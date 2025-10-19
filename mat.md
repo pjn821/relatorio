@@ -1,0 +1,2 @@
+declive 
+y=mx +b

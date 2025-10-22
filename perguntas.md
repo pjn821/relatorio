@@ -51,3 +51,8 @@ std::cin   // permite ler no terminal
 int main(){
 SetConsoleOutputCP(65001);
 } 
+
+
+-[ ] diferença entre constexpr e const.
+-[ ] criar  link entre os ficheiros
+ [[cig]]

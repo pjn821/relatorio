@@ -1,0 +1,3 @@
+- [ ] data      | tema
+- [ ] [[251030]]| BDSQL | criar base de dados de filme (sqltutorial.org/playground)
+- [ ]

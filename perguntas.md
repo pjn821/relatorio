@@ -56,3 +56,6 @@ SetConsoleOutputCP(65001);
 -[ ] diferença entre constexpr e const.
 -[ ] criar  link entre os ficheiros
  [[cig]]
+
+
+- [ ] qual diferenca entre java e javascript?

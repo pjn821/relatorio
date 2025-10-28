@@ -10,4 +10,5 @@ std::string boolean_to_string(bool value){
 }
 int main() {
   std::cout << boolean_to_string(true);
+  std::cout << boolean_to_string(false);
 }

@@ -29,3 +29,25 @@ practice
 Bases de Dados SQL = aprender a guardar, organizar e procurar informação num computador, usando a linguagem SQL
 - [ ] why do we need it?
 Porque quase tudo o que existe na internet usa bases de dados
+
+
+## what is
+## when to use
+## when not to use
+
+## sql commands
+
+### create table
+generico
+```sql
+create tabel table_name(
+    column_name column_type,
+    column_name column_type
+)
+```
+```sql
+create table filmes(
+    diretor varchar(255),
+    ano_lancamento int
+)
+```

@@ -7,3 +7,13 @@
             Perceptivo	 (olhar, ouvir, tocar)	
             Cognitivo	 (pensa e decide)
             Motor        (executar a açao)
+
+
+
+
+## [[251106]]
+ *LEMBRETE* // (estilo de interação: manipulação direta)quando quando realizamos uma açao e nos da um feedback.
+    não houve aula e nao foi disponibilizado nenhum docucmento
+
+
+

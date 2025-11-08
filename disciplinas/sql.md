@@ -51,3 +51,35 @@ create table filmes(
     ano_lancamento int
 )
 ```
+
+
+```sql
+//criar uma tabela 
+CREATE TABLE name_table(
+    nome_coluna type,
+    nome_coluna type
+)
+
+//inserir valor na tabela
+INSERT INTO nome_de_tabela(nome_de_coluna, nome_de_coluna)
+VALUES (valor, valor);
+
+// selecionar uma coluna 
+SELECT * FROM nome_de_table
+SELECT nome_de_coluna FROM nome_de_table
+
+//alterar tipo da coluna 
+ ALTER TABLE nome_de_tabela
+ MODIFY COLUMN nome_coluna FLOAT;
+
+ALTER TABLE nome_tabela
+MODIFY COLUMN nome_coluna Decima(nº int, nº decima);
+
+//evitar que linha ou colunas sejam duplicadas
+create table nome_tabela(
+    name_coluna type unique
+);
+         or
+ ALTER TABLE nome_tabela
+ ADD CONSTRAINT nome_unico UNIQUE (nome);
+```

@@ -1,8 +1,8 @@
-**Aula 4 - Importância dos Sistemas de Informação** Data: 20 de outubro de 2025 Horário: 20:30
+## [[251020]]
 
 **Importância dos Sistemas de Informação**
 
-	- Operações:
+	- Operações:[[251020]]
 		- Repetitivas
 	
 	- Melhorias de Eficiência:
@@ -55,6 +55,48 @@
 		si operacionais- ex: sistema de inventario que melhoram gestao de stocks
 		si de apoio a decisao- ex: sistema de analise que melhora a decisao.S
 
+
+## [[251104]]
+
+		metodologia de desenvolvimento de software
+            OBJETIVO DAS METODOLOGIAS
+
+                Evitar caos — sem metodologia, cada programador faz de um jeito e o projeto vira confusão.
+
+                Controlar o tempo e custos — garante que o projeto não estoure o orçamento.
+
+                Garantir qualidade — cada fase (análise, desenho, testes) é feita com rigor.
+
+                Adaptar-se às mudanças — se algo muda no cliente, saber reagir sem quebrar tudo.
+            
+            Metodologia classica
+                Sao sequencias e rigidas, tudo tem de ser devidamente planeado antes de começar e nao pode haver mudanças de plano porque pode comprometer todo trabalho o projeto(tempo, custo).
+                ex: contruçao de um avião.
+                
+                - cascata
+                Usadas em:
+
+                    Bancos, hospitais, governos, sistemas críticos.
+                    Projetos onde erro = prejuízo alto.
+
+                    Vantagem: tudo é documentado, testado e previsível.
+                    Desvantagem: lento, difícil mudar no meio.
+            
+            Metodologias Ágeis
+
+                Focam em velocidade, colaboração e adaptação.
+                fazem o trablho por sprints e a cada sprint mostram ao cliente 
+                mostar ao clinte fica sujeito a mudanças que quando exageradas pode comprometer(tempo e custo).
+
+                -scrum
+                -kanban
+                    Usadas em:
+
+                        Startups, apps, produtos digitais, empresas como Google, Tesla, Spotify.
+                        Projetos que mudam rápido ou precisam de entregas frequentes.
+
+                        Vantagem: rápido, adaptável, centrado no cliente.
+                        Desvantagem: se mal gerido, vira confusão (sem prazos, sem disciplina).
 
 
 

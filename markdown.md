@@ -9,6 +9,12 @@ int age;
 ```c++
 int age;
 ```
+## atalhos
+ctrl + k + c // comenta
+
+ctrl + k + u // descomenta
+
+ctrl + 2 // abri janela ao lado
 
 
 ## Headings

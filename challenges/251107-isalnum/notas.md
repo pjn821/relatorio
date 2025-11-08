@@ -1,9 +1,4 @@
- float-----double
- std::cout << ----Console.DigitalWrite()
 
- std::cin >> -----Console.DigitalRead()
-
-## funcao isalnum
 
 isalnum >=1 where {
 digits (0123456789) 
@@ -12,8 +7,4 @@ lowercase letters (abcdefghijklmnopqrstuvwxyz)
 }else{
     isalnum == 0
 }
-
-
-
-
 

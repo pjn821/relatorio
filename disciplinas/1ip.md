@@ -35,7 +35,53 @@ if(condiçao){
 ```
 
 
-#
+## [[251112]]
+    Correçao do homework
+
+    codigo de ordenaçao de numeros 
+    com objetivo de sabermos como se pode trocar os numeros das variaveis.
+
+    ````c++
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int n1, n2, aux;
+
+    cout<< "n1= "; cin>>n1;
+    cout<< "n2= "; cin>>n2;
+
+    if (n1 < n2) {
+        aux = n1;
+        n1 = n2;
+        n2 = aux;
+    }
+    cout<< n1<< "é menor ou igual a "<<n2;
+}
+    ````
+
+- homework
+    Fazer um programa que ordena 3 valores
+    Fazer o fluxograma (no papel ou no Raptor)
+   
+    Escrever o código em C++
+    Restrições:
+    O nome da 1ª variável é n1
+    O nome da 2ª variável é n2
+    O nome da 3ª variável é n3
+   
+    Só pode comparar 2 variáveis em cada teste
+   
+    Só pode usar uma variável adicional
+   
+    O output é único (no fim do programa) e mostra n1, n2 e n3 por ordem crescente
+   
+    O programa deve terminar, obrigatoriamente, com a instrução:
+    cout << "Valores ordenados\n"
+            << "n1=" << n1
+            << "\nn2=" << n2
+            << "\nn3=" << n3;
 
 
 

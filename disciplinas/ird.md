@@ -46,3 +46,23 @@
 
 
 
+## [[251111]]
+
+    Simulador de redes Cisco Packet Tracer
+        Realização de exercicios em Packet Tracer (attach):
+            1) Estrela_Hub
+            2) Estrela_Switch
+
+
+
+
+
+
+
+
+
+
+
+
+
+

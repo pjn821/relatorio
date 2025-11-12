@@ -103,3 +103,98 @@
 
 
 
+
+## [[2251111]]
+
+		Modelos de Desenvolvimento de Software: Cascata vs Prototipagem
+
+1.  Modelo Cascata (Waterfall)
+
+		- Definição: Uma abordagem linear e sequencial onde cada fase deve ser concluída antes de iniciar a seguinte.
+
+		- Fases principais:
+
+			- Requisitos: coleta e documentação detalhada.
+
+			- Design: planeamento da arquitetura do sistema.
+
+			- Implementação: codificação com base no design.
+
+			- Verificação: testes para garantir conformidade com requisitos.
+
+			- Manutenção: correções e melhorias pós-entrega.
+
+		- Quando usar:
+
+			- Requisitos bem definidos e pouco sujeitos a mudanças.
+
+			- Sistemas críticos onde a documentação rigorosa é obrigatória (ex: aeroespacial, saúde).
+
+			- Projetos com pouca incerteza e alta estabilidade.
+
+		- Vantagens:
+
+			- Processo estruturado e fácil de gerenciar.
+
+			- Documentação completa, útil para manutenção futura.
+
+		- Desvantagens:
+
+			- Pouca flexibilidade para mudanças após início.
+
+			- Problemas podem ser detectados tardiamente, geralmente na fase de testes.
+
+			- Resumo: adequado para projetos bem definidos, mas pouco adaptável a mudanças.
+
+		2. Prototipagem
+
+		- Definição: Criação de modelos funcionais do sistema para explorar ideias e obter feedback precoce.
+
+		- Tipos de protótipos:
+
+			- Rápidos, evolutivos, descartáveis e incrementais.
+
+		- Quando usar:
+
+			- Para projetos com requisitos incertos ou em evolução.
+
+			- Desenvolvimento de interfaces de usuário (UI), onde feedback é essencial.
+
+			- Quando é importante testar funcionalidades antes da implementação final.
+
+		- Vantagens:
+
+			- Ajuda a identificar problemas cedo.
+
+			- Facilita o entendimento das necessidades reais do usuário.
+
+			- Permite melhorias iterativas e ajustes contínuos.
+
+		- Quando usar:
+
+			- Projetos dinâmicos, com alta incerteza ou necessidade de interação contínua com o cliente.
+
+		- Resumo: ideal para projetos que exigem flexibilidade, adaptação e envolvimento constante do usuário.
+
+Concluindo (80/20):
+
+- O modelo Cascata é ótimo para projetos com requisitos estáveis e documentos bem definidos.
+
+- A prototipagem é preferível quando há incertezas, evolução de requisitos ou forte necessidade de feedback do usuário.
+
+- A escolha do método depende da estabilidade dos requisitos e do nível de interação necessário com o cliente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

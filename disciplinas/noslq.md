@@ -105,7 +105,7 @@ redução de carga por nós,
 
 comando para mongoosh
 
-```nosql 
+```json
 show dbs
 use smart_home
 show collections
@@ -161,3 +161,78 @@ db.devices.deleteMany({ "status": "inactive" })
 
 
 
+## [[251114]]
+
+`````json
+db.devices.find({ batteryLevel: { $gt: 20, $lt: 80 } }) // Encontra devices cujo nível de bateria é maior que 20 e menor que 80
+
+db.readings.find({
+  timestamp: { $gte: ISODate("2025-10-28T00:00:00Z") }
+})  //raz documentos cuja data é maior ou igual a 28/10/2025. Serve para buscar “a partir de…”.
+
+
+db.devices.find({
+  type: { $in: ["Temperature", "Humidity"] }
+}) //Devolve devices cujo tipo é “Temperature” ou “Humidity”. $in → aceita estes valores.
+
+
+db.devices.find({
+  type: { $nin: ["Motion"] }
+}) //Traz tudo exceto os tipos “Motion”. $nin = not in.
+
+
+db.devices.find({
+  $and: [
+    { status: "active" },
+    { location: "Kitchen" }
+  ]
+})  //Devices que são ativos E estão na cozinha.
+
+db.devices.find({
+  $or: [
+    { type: "Temperature" },
+    { type: "Humidity" }
+  ]
+}) //Traz devices tipo Temperature OU Humidity.
+
+
+db.devices.find({
+  $and: [
+    { status: "active" },
+    { $or: [ { location: "Kitchen" }, { location: "Garage" } ] }
+  ]
+})  //Devices ativos e que estão na Kitchen ou na Garage.
+
+
+{ "$or": [ { "type": "Temperature" }, { "type": "Humidity" } ] }  //Só está a mostrar a estrutura de um filtro OR.
+
+
+db.devices.find(
+  { status: "active" },
+  { deviceId: 1, type: 1, _id: 0 }
+) //Filtra devices ativos. E só devolve:
+//deviceId
+//type
+//— _id: 0 remove o id do MongoDB.
+
+
+db.devices.find(
+  {},
+  { "deviceId": 1, "manufacturer.name": 1, "sensors.type": 1 }
+) //Não filtra nada {}, devolve tudo. Mas mostra apenas:
+//deviceId
+//manufacturer.name (campo dentro de outro)
+//sensors.type (array dentro do documento)
+
+
+db.devices.find().sort({ batteryLevel: -1 }) //-1 → descendente (maior primeiro).
+//1 → ascendente (menor primeiro).
+
+
+db.devices.find().sort({ location: 1, type: -1 }) //Ordena pela location A→Z
+//Se location for igual, ordena type Z→A
+
+
+db.devices.find().sort({ batteryLevel: -1 }).limit(5) //Traz só os 5 devices com mais bateria.
+
+````

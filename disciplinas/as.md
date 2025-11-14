@@ -29,3 +29,7 @@
                 Modernas (MSAs/gMSAs): Contas geridas pelo sistema que atualizam automaticamente as palavras-passe e têm menos exposição a riscos.
 
 
+## notas
+
+
+

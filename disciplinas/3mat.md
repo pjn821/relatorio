@@ -39,6 +39,22 @@
 -   funçao afim-  y = mx + b      m → declive da reta      𝒃 → ordenada na origem
 
 
+## matriz
 
+matriz é uma tabela organizada em linhas e colunas para guardar varios valores do mesmo tipo.
+
+tipos de matriz
+    --transposta (A+): linha<->coluna
+    --quadratica: nº de linhas = nº de colunas ex: A2x2
+        diagonal principal  (\)
+        diagonal secundaria (/)
+    --identidade: simplifica matriz quadratica ex: A2x2 = I2
+        diagonal principal = 1 e todo resto = 0.
+    --inversa(A-1): A.A-1=In
+
+calculo de matrizes 
+    -- multiplicaçao/divisao: linha1 * coluna1 e linha2 * coluna2
+    -- soma/subtraçao: 1posicao + 1posicao e 1posicao + 1posicao 
+    nota: para calcular, os mn das matrizes tem de ser igual 
 
 

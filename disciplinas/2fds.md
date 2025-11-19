@@ -30,7 +30,7 @@
 	- BI (Business Intelligence)
 
 
-[[251027]]
+## [[251027]]
 ###conceito e importancia de gestao de informaçao
 
 	gestao de informaçao é processo de...dados
@@ -176,13 +176,7 @@
 
 		- Resumo: ideal para projetos que exigem flexibilidade, adaptação e envolvimento constante do usuário.
 
-Concluindo (80/20):
 
-- O modelo Cascata é ótimo para projetos com requisitos estáveis e documentos bem definidos.
-
-- A prototipagem é preferível quando há incertezas, evolução de requisitos ou forte necessidade de feedback do usuário.
-
-- A escolha do método depende da estabilidade dos requisitos e do nível de interação necessário com o cliente.
 
 
 

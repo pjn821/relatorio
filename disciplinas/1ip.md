@@ -84,8 +84,30 @@ int main(){
             << "\nn3=" << n3;
 
 
+## [[251119.md]]
+nova palavra "swop" -> trocar apenas duas coisas.
+```c++
+if (n1 > n2) {
+        aux = n1;
+        n1 = n2;
+        n2 = aux;
+    }
 
+    or 
 
+if( n1 > n2){
+    swop(n1, n2);
+}
+````
+formas somar 
+
+```c++
+int x = 2
+x = x + 1; cout << "x = 3 "; //serve para somar 2 ou mais coisas
+x += 1;    cout << "x = 3 "; // serve para somar uma coisa 
+x++;       cout << "x = 2 "; //primeiro da o valor de x depois soma +1
+++x;       cout << "x = 3 "; // soma +1 depois da o valor de x
+```
 
 
 

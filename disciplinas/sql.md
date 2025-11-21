@@ -59,7 +59,7 @@ CREATE TABLE name_table(
     nome_coluna type,
     nome_coluna type
 )
-
+### insert table
 //inserir valor na tabela
 INSERT INTO nome_de_tabela(nome_de_coluna, nome_de_coluna)
 VALUES (valor, valor);
